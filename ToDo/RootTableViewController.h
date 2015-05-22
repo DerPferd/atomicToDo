@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTableViewController.h
 //  ToDo
 //
 //  Created by Jonathan Beaulieu on 5/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
-

@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		76B1198A1B0FBDAE00F85D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B119891B0FBDAE00F85D76 /* main.m */; };
 		76B1198D1B0FBDAE00F85D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B1198C1B0FBDAE00F85D76 /* AppDelegate.m */; };
-		76B119901B0FBDAE00F85D76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B1198F1B0FBDAE00F85D76 /* ViewController.m */; };
 		76B119931B0FBDAE00F85D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B119911B0FBDAE00F85D76 /* Main.storyboard */; };
 		76B119951B0FBDAE00F85D76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B119941B0FBDAE00F85D76 /* Images.xcassets */; };
 		76B119981B0FBDAE00F85D76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B119961B0FBDAE00F85D76 /* LaunchScreen.xib */; };
 		76B119A41B0FBDAE00F85D76 /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B119A31B0FBDAE00F85D76 /* ToDoTests.m */; };
+		76B119B51B0FC14D00F85D76 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B119B41B0FC14D00F85D76 /* RootTableViewController.m */; };
+		76B119BB1B0FCB3D00F85D76 /* ExpandingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B119BA1B0FCB3D00F85D76 /* ExpandingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		76B119891B0FBDAE00F85D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76B1198B1B0FBDAE00F85D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76B1198C1B0FBDAE00F85D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76B1198E1B0FBDAE00F85D76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		76B1198F1B0FBDAE00F85D76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76B119921B0FBDAE00F85D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76B119941B0FBDAE00F85D76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		76B119971B0FBDAE00F85D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		76B1199D1B0FBDAE00F85D76 /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B119A21B0FBDAE00F85D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B119A31B0FBDAE00F85D76 /* ToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTests.m; sourceTree = "<group>"; };
+		76B119B31B0FC14D00F85D76 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		76B119B41B0FC14D00F85D76 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		76B119B91B0FCB3D00F85D76 /* ExpandingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandingCell.h; sourceTree = "<group>"; };
+		76B119BA1B0FCB3D00F85D76 /* ExpandingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				76B1198B1B0FBDAE00F85D76 /* AppDelegate.h */,
 				76B1198C1B0FBDAE00F85D76 /* AppDelegate.m */,
-				76B1198E1B0FBDAE00F85D76 /* ViewController.h */,
-				76B1198F1B0FBDAE00F85D76 /* ViewController.m */,
 				76B119911B0FBDAE00F85D76 /* Main.storyboard */,
 				76B119941B0FBDAE00F85D76 /* Images.xcassets */,
 				76B119961B0FBDAE00F85D76 /* LaunchScreen.xib */,
 				76B119871B0FBDAE00F85D76 /* Supporting Files */,
+				76B119B31B0FC14D00F85D76 /* RootTableViewController.h */,
+				76B119B41B0FC14D00F85D76 /* RootTableViewController.m */,
+				76B119B91B0FCB3D00F85D76 /* ExpandingCell.h */,
+				76B119BA1B0FCB3D00F85D76 /* ExpandingCell.m */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B119901B0FBDAE00F85D76 /* ViewController.m in Sources */,
+				76B119BB1B0FCB3D00F85D76 /* ExpandingCell.m in Sources */,
+				76B119B51B0FC14D00F85D76 /* RootTableViewController.m in Sources */,
 				76B1198D1B0FBDAE00F85D76 /* AppDelegate.m in Sources */,
 				76B1198A1B0FBDAE00F85D76 /* main.m in Sources */,
 			);
